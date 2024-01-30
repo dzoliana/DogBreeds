@@ -28,7 +28,7 @@
 }
 
 .image.active {
-  border: 1px solid #d2893b;
+  border: 1px solid #814f19;
   border-radius: 20px;
 }
 .selected {
@@ -36,6 +36,6 @@
   height: 150px;
   padding: 0.3rem;
   box-sizing: border-box;
-  border: 1px solid #d2893b;
+  border: 1px solid #814f19;
   border-radius: 20px;
 }

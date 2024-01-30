@@ -43,7 +43,7 @@ function BreedDetail(props) {
               selectedImage === index ? classes.selected : classes.image
             }`}
             style={
-              selectedImage === index ? { border: "2px solid #d2893b" } : null
+              selectedImage === index ? { border: "2px solid #814f19" } : null
             }
             onClick={() => selectImageHandler(index)}
           />

@@ -6,9 +6,14 @@ body {
   margin: 0;
   background-color: #fff2e1;
   opacity: 0.97;
-  background-image: url("background.jpg");
-  background-repeat: repeat;
-  height: 100%;
+  background-size: 22px 22px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #966812,
+    #966812 1.1px,
+    #fff2e1 1.1px,
+    #fff2e1
+  );
 }
 
 h1,
