@@ -37,6 +37,10 @@
   o Implement appropriate error handling for API requests (displaying error messages if the API call fails, for example).
   o Validate user interfaces where necessary (e.g. handling invalid routes or unavailable breeds).
 
+## Deployed site
+
+- project is deployed with Netlify, click to see [dog-breeds](https://dog-breeds-dzoliana.netlify.app/)
+
 ## Getting Started
 
 First, run the development server:
