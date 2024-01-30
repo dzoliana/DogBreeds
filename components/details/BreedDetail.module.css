@@ -1,0 +1,41 @@
+.breedDetail {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #3b3835;
+  border-radius: 4px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0rem;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 150px;
+  padding: 0.3rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  resize: vertical;
+}
+
+.image.active {
+  border: 1px solid #d2893b;
+  border-radius: 20px;
+}
+.selected {
+  width: 100%;
+  height: 150px;
+  padding: 0.3rem;
+  box-sizing: border-box;
+  border: 1px solid #d2893b;
+  border-radius: 20px;
+}

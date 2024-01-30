@@ -1,4 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dog breeds
+
+## Project summary
+
+- Dog breeds is a web application that involves creating a frontend app using React and Next.js.
+- The app will interact with the Dog CEO's Dog API to display various dog images.
+- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Requirements:
+
+1. Set up a next.js project
+
+- Initialize a new next.js project which will serve as the base for your frontend app.
+
+2. Implement pages and navigation:
+
+- Homepage (dog breeds page: a page that lists all dog breeds retrieved from the Dog API.)
+- Breed images page: when a user clicks on a breed, they should be taken to this page where they can view various images of the selected breed.
+
+3. Integrate dog CEO's Dog API:
+
+- Utilize the dog API to fetch and display data. This includes listing all breeds and displaying images for a selected breed.
+
+4. User interaction and state management:
+
+- Implement client-side state management to handle user interactions, such as selecting a dog breed.
+
+5. UX/UI and styling:
+
+- Use a CSS/UI framework of your choice for styling (e.g. Bootstrap, Material-UI, Tailwind CSS)
+
+### BONUS
+
+- Preserve the app state on page refresh(you might use React Context or any state management library like Redux).
+- Ensure the app is responsive and provides a good user experience.
+- Data validation and error handling (Frontend):
+  o Implement appropriate error handling for API requests (displaying error messages if the API call fails, for example).
+  o Validate user interfaces where necessary (e.g. handling invalid routes or unavailable breeds).
 
 ## Getting Started
 
