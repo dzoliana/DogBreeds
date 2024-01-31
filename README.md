@@ -2,7 +2,7 @@
 
 ## Project summary
 
-- Dog breeds is a web application that involves creating a frontend app using React and Next.js.
+- Dog breeds project involves creating a frontend app using React and Next.js.
 - The app will interact with the Dog CEO's Dog API to display various dog images.
 - This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
